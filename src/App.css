@@ -1,0 +1,39 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quoteBox{
+  width: 40%;
+  height: 25%;
+  border: none;
+  padding: 30px;
+  display: flex;
+  position: relative;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.quote{
+  position:absolute;
+  top: 30px;
+}
+
+.author{
+  position: absolute;
+  top: 45%;
+  right: 100px;
+}
+
+.changeButton{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  top: 70%;
+  right: 50px;
+  cursor: pointer;
+}
